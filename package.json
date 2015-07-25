@@ -5,7 +5,7 @@
   "description": "Simply allow you to hide files and folders in the treeview according to .gitignore file.",
   "keywords": [
   ],
-  "repository": "https://github.com/atom/git-hide",
+  "repository": "https://github.com/Pangoraw/git-hide",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
