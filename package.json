@@ -1,7 +1,7 @@
 {
   "name": "git-hide",
   "main": "./index",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Simply allow you to hide files and folders in the treeview according to .gitignore file.",
   "keywords": [
   ],
