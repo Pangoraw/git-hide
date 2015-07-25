@@ -1,0 +1,15 @@
+{
+  "name": "git-hide",
+  "main": "./index",
+  "version": "0.0.1",
+  "description": "Simply allow you to hide files and folders in the treeview according to .gitignore file.",
+  "keywords": [
+  ],
+  "repository": "https://github.com/atom/git-hide",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
