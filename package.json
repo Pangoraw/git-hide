@@ -1,8 +1,8 @@
 {
   "name": "git-hide",
   "main": "./index",
-  "version": "0.1.0",
-  "description": "Simply allow you to hide files and folders in the treeview according to .gitignore file.",
+  "version": "0.1.1",
+  "description": "Simply allows you to toggle the visibility of files and folders in the treeview according to .gitignore file.",
   "keywords": [],
   "repository": "https://github.com/Pangoraw/git-hide",
   "license": "MIT",
