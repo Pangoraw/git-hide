@@ -11,10 +11,14 @@ class HideItems
     if pkg.name == "tree-view" and !@visible then @hideIgnoredItems()
 
   hideIgnoredItems : =>
-    utilities.getPanel().classList.add "ignore-hidden"
+    panel = utilities.getPanel()
+    if panel?
+      panel.classList.add "ignore-hidden"
 
   unhideIgnoredItems : =>
-    utilities.getPanel().classList.remove "ignore-hidden"
+    panel = utilities.getPanel()
+    if panel?
+      panel.classList.remove "ignore-hidden"
 
   toggleIgnoredItems : =>
     if @visible
