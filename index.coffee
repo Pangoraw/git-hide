@@ -1,13 +1,5 @@
-HideItems = require "./lib/git-hide.coffee"
-
 module.exports =
-
-  config :
-    hideOnStartup :
-      type : 'boolean'
-      default : true
-
+  toggle: =>
+    atom.config.set "tree-view.hideVcsIgnoredFiles", !atom.config.get("tree-view.hideVcsIgnoredFiles")
   activate: (state) ->
-    @hideItems = new HideItems()
-    atom.commands.add "atom-workspace", "git-hide:toggle-ignored-file-state",
-                               @hideItems.toggleIgnoredItems
+    atom.commands.add "atom-workspace", "git-hide:toggle-ignored-file-state", @toggle
